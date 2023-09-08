@@ -21,8 +21,8 @@ int main()
 	}
 
 	cout << fixed;
-    cout.precision(9);
-
+        cout.precision(9);
+	
 	cout << low << endl;
 
 
