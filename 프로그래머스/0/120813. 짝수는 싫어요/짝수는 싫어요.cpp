@@ -7,8 +7,7 @@ vector<int> solution(int n) {
     vector<int> answer;
     
     for(int i = 0; i<n; i+=2)
-    {
         answer.push_back(i+1);
-    }
+    
     return answer;
 }
