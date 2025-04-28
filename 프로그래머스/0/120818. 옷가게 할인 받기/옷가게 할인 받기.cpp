@@ -4,7 +4,7 @@
 using namespace std;
 
 int solution(int price) {
-    int answer = 0;
+    int answer = 1;
     
     if (price>=500000)
         answer = price * 0.8;
@@ -13,5 +13,6 @@ int solution(int price) {
     else if(price>=100000)
         answer = price * 0.95;
     else answer = price;
+    
     return answer;
 }
