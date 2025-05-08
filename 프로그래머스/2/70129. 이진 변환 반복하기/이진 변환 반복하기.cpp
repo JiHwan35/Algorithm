@@ -19,8 +19,7 @@ vector<int> solution(string s) {
             else
                 sum++;
         }
-        cout<<sum<< " "<<tmp<<endl;
-        
+               
         int n = tmp.size();
         string bn = "";
         
